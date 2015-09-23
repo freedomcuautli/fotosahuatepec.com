@@ -114,20 +114,36 @@ p{
 .wp-pic{
 	margin-bottom:20px;
 }
+
+.we-create ul{
+	text-align:center;
+	vertical-align: middle;
+}
+
 .we-create li{
-	display:inline-block;
+	display:list-item;
+	list-style-type:none;
 	font-family: 'Montserrat',sans-serif;
-	font-size:14px;
+	font-size: 1.5em;
 	color: #bcbcbc;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
 	padding:0 0 0 15px;
+	height:1.5em;
+	line-height:1.5em;
+	/*widht:fit-content;*/
+	text-align:center;
+	vertical-align: middle;
 }
 .we-create li:first-child{
+/*	font-size: 1.5em;*/
 	background:none;
 }
-
+.we-create li:last-child{
+	margin-top:1em;
+	font-size: 1.15em;
+}
 .start-button {
 	padding-left: 0px;
 }
