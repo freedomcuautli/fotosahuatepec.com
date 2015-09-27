@@ -609,6 +609,9 @@ i{
 .fa-trophy:before {
   content: "\f091";
 }
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
 .fa-github-square:before {
   content: "\f092";
 }
