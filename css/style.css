@@ -135,6 +135,7 @@ p{
 	/*widht:fit-content;*/
 	text-align:center;
 	vertical-align: middle;
+	
 }
 
 /*
@@ -900,4 +901,69 @@ team-leader-block{
 	-webkit-animation-delay: 1.2s; 
 }
 
+@media screen and (max-width: 31.88775510204082em) {
+	.header{
+	text-align:center;
+	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	padding:80px 0;
+}
+	.we-create{
+	padding:0;
+	margin:35px 0 55px;
+}
+	.we-create ul{
+		text-align:center;
+		vertical-align: middle;
+	}
+	
+	.we-create li{
+		display:list-item;
+		list-style-type:none;
+		/*font-family: 'Montserrat',sans-serif;*/
+		/*font-size: .9em;*/
+		color: #bcbcbc;
+		text-transform: uppercase;
+		/*font-weight: 200;*/
+		/*
+		margin:0 5px 0 0;
+		padding:0 0 0 15px;
+		height:1em;
+		line-height:1em;*/
+		/*widht:fit-content;*/
+		text-align:center;
+		vertical-align: middle;
+		
+	}
+	
+		#servlist li{	
+		display:list-item;
+		list-style-type:none;
+		/*font-family: 'Montserrat',sans-serif;*/
+		font-size: .75em;
+		color: #bcbcbc;
+		text-transform: uppercase;
+		/*font-weight: 200;*/
+		/*
+		margin:0 5px 0 0;
+		padding:0 0 0 15px;
+		height:1em;
+		line-height:1em;*/
+		/*widht:fit-content;*/
+		text-align:center;
+		vertical-align: middle;
+		
+	}
 
+	
+	.we-create li:first-child{
+		/*	font-size: 1.5em;*/
+			background:none;
+			/*		font-size: .8em;*/
+		}
+		#servlist li:last-child{
+			margin-top:.65em;
+			font-size: .7em;
+		}
+		
+
+}
