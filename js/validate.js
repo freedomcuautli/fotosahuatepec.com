@@ -37,7 +37,7 @@ $(function() {
             $(form).ajaxSubmit({
                 type:"POST",
                 data: $(form).serialize(),
-                url:"http://localhost/php/process.php",
+                url:"../php/process.php",
                 success: function() {
                     $('#contacto :input').attr('disabled', 'disabled');
                     $('#contacto').fadeTo( "slow", 0.15, function() {
